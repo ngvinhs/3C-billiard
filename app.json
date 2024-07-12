@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "3CBilliard",
+    "slug": "3CBilliard",
+    "scheme": "3CBilliard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/3c-adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashimg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/3c-adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.billiard.billiard",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/3c-adaptive-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps._some_id_here_"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a5088a6a-87e9-4cbb-b2ad-6f775648a154"
+      }
+    }
+  }
+}

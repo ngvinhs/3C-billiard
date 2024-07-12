@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977495063380",
+    "project_id": "notification-3cbilliard",
+    "storage_bucket": "notification-3cbilliard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977495063380:android:69da4255f51acefd6ba6c1",
+        "android_client_info": {
+          "package_name": "Billiard.C3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCifi145SH0oaain_E0iozakJID6v9ckkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
